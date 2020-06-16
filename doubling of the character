@@ -1,0 +1,8 @@
+def char(string):
+    res=""
+    for char in string:
+        res+=char*2
+    return res
+    
+l=char('The')
+print(l)
