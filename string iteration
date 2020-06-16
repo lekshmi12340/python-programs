@@ -1,0 +1,3 @@
+len="welcome to the world of python"
+for i in len:
+    print(i)
