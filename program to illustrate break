@@ -1,0 +1,7 @@
+while True:
+    name=input("Enter your name")
+    if name=="xyz":
+        print("you have entered correct name")
+        break
+    else:
+        print("you have entered the wrong name")
