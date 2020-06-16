@@ -1,0 +1,6 @@
+len="welcome to the world of python"
+count=0
+for i in len:
+    if(count%2!=0):
+        print(i)
+    count=count+1    
