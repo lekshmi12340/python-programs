@@ -1,0 +1,2 @@
+h=[letter for letter in 'human' if letter in ['a','e','i','o','u']]
+print(h)
