@@ -1,0 +1,6 @@
+k =int(input("nter the year to be checked"))
+if(k%4==0 and k%100!=0 or k%400==0):
+    print("The year is leap year")
+else:
+    print("The year is not leap year")
+
