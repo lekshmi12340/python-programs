@@ -1,0 +1,6 @@
+import time
+while True:
+    localtime=time.localtime()
+    res=time.strftime("%H:%M:%S %p",localtime)
+    print(res)
+    time.sleep(1)
